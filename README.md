@@ -30,4 +30,4 @@ now you can edit attributes:
 * hover-color - edits button background color on hover
 * click-color - edits button background color on click
 * text-color - edits button text color
-* font - edits font of button
+* font-family - edits font of button
