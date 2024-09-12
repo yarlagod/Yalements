@@ -22,3 +22,12 @@ example:
 if you do all right it shows this:
 
 ![](https://github.com/user-attachments/assets/c6ea3d7b-3b3f-4757-8036-519713da193b)
+
+now you can edit attributes:
+* width - edits width of button
+* height - edits height of button
+* color - edits button background color
+* hover-color - edits button background color on hover
+* click-color - edits button background color on click
+* text-color - edits button text color
+* font - edits font of button
