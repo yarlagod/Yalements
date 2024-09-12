@@ -19,4 +19,4 @@ example:
 </body>
 </html>
 ```
-if you do all right it shows this: ![if you do all right it shows this:](https://github.com/user-attachments/assets/c6ea3d7b-3b3f-4757-8036-519713da193b)
+![if you do all right it shows this:](https://github.com/user-attachments/assets/c6ea3d7b-3b3f-4757-8036-519713da193b)
