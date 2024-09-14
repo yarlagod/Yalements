@@ -61,3 +61,34 @@ class btn extends HTMLElement {
   }
 }
 customElements.define("styled-button", btn);
+class icon extends HTMLElement {
+  static observedAttributes = ["name","width","height","size"];
+
+  constructor() {
+    super();
+  }
+  connectedCallback() {
+    if (this.hasAttribute("name")){
+      var name = this.getAttribute("name");
+    }
+    else{
+      var name = "default";
+    }
+    var img = document.createElement("img")
+    img.src = "https://cdn.jsdelivr.net/gh/yarlagod/github-icons@main/"+name+".svg"
+    if (this.hasAttribute("size")){
+      img.style.width = this.getAttribute("size");
+      img.style.height = this.getAttribute("size");
+    }
+    else{
+      if (this.hasAttribute("width")){
+        img.style.width = this.getAttribute("width");
+      }
+      if (this.hasAttribute("height")){
+        img.style.height = this.getAttribute("height");
+      }
+    }
+    this.appendChild(img)
+  }
+}
+customElements.define("github-icon", icon);
